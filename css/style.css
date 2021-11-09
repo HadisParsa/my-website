@@ -439,10 +439,16 @@ nav a{
   background-position: center; }
 
 .header-one {
-  background-image: url(../img/portfolio-01.jpg); }
+  background-image: url(../img/portfolio-05.jpg); }
+  .header-two {
+    background-image: url(../img/portfolio-04.jpg); }
+    .header-three {
+      background-image: url(../img/portfolio-03.jpg); }
+      .header-four {
+        background-image: url(../img/portfolio-02.jpg); }
+        .header-five {
+          background-image: url(../img/portfolio-01.jpg); }
 
-.header-two {
-  background-image: url(../img/portfolio-02.jpg); }
 
 .portfolio-title-box {
   background: rgba(40, 117, 185, 0.75);
@@ -484,19 +490,10 @@ nav a{
   .portfolio-pull-right {
     width: 65%;
     float: right;
-    margin-left: 2em; } }
+    margin-left: 2em; } 
+  }
 
-@keyframes modalIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 
-@keyframes modalOut {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
 
 .contact {
   width: 90%;
@@ -509,73 +506,6 @@ nav a{
   list-style-type: none;
 }
 
-form {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  @supports (display: grid) {
-    @media (min-width: 50em) {
-      form {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 1em;
-
-        grid-template-areas: "name     email" "message message" "   .      button"; }
-
-        form .name {
-          grid-area: name; }
-        form .email {
-          grid-area: email; }
-        form .message {
-          grid-area: message; }
-          form .message textarea {
-            height: 10em; }
-        form .button {
-          grid-area: button; } } }
-
-label {
-  display: block;
-  margin-top: 1em;
-  color: #606060; }
-
-input,
-textarea {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  padding: .75em;
-  width: 100%;
-  min-width: 15em;
-  background: #fbfbfc;
-  border: 1px solid #E8E9EB;
-  font-size: 1.2rem; }
-
-textarea {
-  resize: vertical;
-  outline: none; }
-
-.button {
-  display: inline-block;
-  width: auto;
-  min-width: auto;
-  margin-top: 1em;
-  margin-left: auto;
-  background: #1d7dc1;
-  border: none;
-  font-size: 2.5rem;
-  letter-spacing: 0.15em;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  line-height: 1;
-  font-family: "Six Caps", sans-serif;
-  font-weight: 400;
-  padding: .5em 1.5em; }
 
 footer {
   background: #223843;
@@ -610,4 +540,7 @@ footer {
 
   footer li {
     list-style-type: none;
+  }
+  .btn-primary{
+    margin: 2px !important;
   }

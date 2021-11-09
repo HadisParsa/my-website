@@ -438,17 +438,6 @@ nav a{
   background-size: cover;
   background-position: center; }
 
-.header-one {
-  background-image: url(../img/portfolio-05.jpg); }
-  .header-two {
-    background-image: url(../img/portfolio-04.jpg); }
-    .header-three {
-      background-image: url(../img/portfolio-03.jpg); }
-      .header-four {
-        background-image: url(../img/portfolio-02.jpg); }
-        .header-five {
-          background-image: url(../img/portfolio-01.jpg); }
-
 
 .portfolio-title-box {
   background: rgba(40, 117, 185, 0.75);

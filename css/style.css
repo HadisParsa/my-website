@@ -308,13 +308,14 @@ nav a{
     grid-row: 2 / 3; }
   .about-text {
     grid-row: 3 / 4; } 
-
-
   }
  
   @media (max-width: 25em){
  .portfolio-desc {
  display: none;}
+ .portfolio-title {
+  font-size: 2.5rem;
+  margin-bottom: auto; }
   }
 
 .portfolio {
@@ -370,10 +371,9 @@ nav a{
   .portfolio-item:focus figcaption {
     top: 0; }
 
-.portfolio-title {
-  color: #FFFFFF;
-  font-size: 2.5rem;
-  margin-bottom: auto; }
+    .portfolio-title {
+      color: #FFFFFF;
+      margin-bottom: auto; }
 
 .portfolio-link {
   color: white;

@@ -4,7 +4,7 @@
 
 ## Summery
 This is a professional materials with links of various applications.
-It is also responsive to different screens.
+It is also responsive to different screen sizes.
 
 ## Built with
 
